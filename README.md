@@ -1,1 +1,5 @@
 # Hybrid-Encryption-in-File-Transfer
+1. Use Qt software development framework and object model to create a powerful GUI to realize cross platform and cross host transmission, and use its module Qt Network to obtain classes such as QTcpSocket, QTcpServer and QNetworkAccessManager, so as to use common protocols to perform network operations and improve development efficiency.
+2. Adopt the hybrid encryption method (AES symmetric encryption + RSA asymmetric encryption) to solve the problem of complex and slow public key encryption process, as well as the problem of safe distribution of private key encryption in the key transmission process, which improves the efficiency of encryption and decryption.
+3. Introduce a remote server as the third party to simulate the establishment of a public key dynamic directory table to achieve public key distribution.
+4. Divide the transmitted messages into message header and message body, which are well encapsulated and can support the transmission of any file type. Use signals and slots to realize event-driven control, including the transfer of each state in each transmission.
