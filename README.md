@@ -1,1 +1,1 @@
-# E-E-Hybrid-Encryption-in-File-Transfer
+# Hybrid-Encryption-in-File-Transfer
